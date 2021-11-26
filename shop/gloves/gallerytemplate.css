@@ -456,7 +456,13 @@ p.minicart-empty-text {
 	padding-top:10%;
 	width: 120%;
 	}
+	input.cart_button{
+		font-size: 1.1em;
+	}
 	.cart_button{
+		font-size: 2em;
+	}
+	a.arrow{
 		font-size: 1.1em;
 	}
 	.arrow{
@@ -464,7 +470,7 @@ p.minicart-empty-text {
 	}
   #PPMiniCart form {
 
-  	height: 400vw;
+  	height: 500vw;
   	padding: 0;
   	background: var(--bg_color);
   	border: 0;
@@ -478,6 +484,27 @@ p.minicart-empty-text {
          -moz-box-shadow: 0px 0px 0px rgba(0,0,0,0);
               box-shadow: 0px 0px 0px rgba(0,0,0,0);
   }
+	button.minicart-closer{
+		font-size: 1.1em;
+	}
+	span.minicart-price{
+		font-size: 1.1em;
+	}
+	span.minicart-remove{
+		font-size:1.1em;
+	}
+	a.minicart-name{
+		font-size:1.1em;
+	}
+	input.minicart-quantity{
+			font-size: 1.1em;
+		}
+	div.minicart-subtotal{
+			font-size:1.1em;
+		}
+	button.minicart-submit{
+		font-size:1.1em;
+	}
 }
 
 /* Responsive desktop */
@@ -489,10 +516,13 @@ p.minicart-empty-text {
 	{
 		font-size: 1.1em
 	}
-	.cart_button{
+	.arrow{
+		font-size:1.1em;
+	}
+	input.cart_button{
 		font-size: 1.1em;
 	}
-	.arrow{
+	a.arrow{
 		font-size: 1.1em;
 	}
 	.wrapper{
@@ -510,7 +540,7 @@ p.minicart-empty-text {
 	}
   #PPMiniCart form {
 
-  	height: 400vw;
+  	height: 500vw;
   	padding: 0;
   	background: var(--bg_color);
   	border: 0;
@@ -524,5 +554,28 @@ p.minicart-empty-text {
          -moz-box-shadow: 0px 0px 0px rgba(0,0,0,0);
               box-shadow: 0px 0px 0px rgba(0,0,0,0);
   }
+	button.minicart-closer{
+		font-size: 1.1em;
+	}
+	span.minicart-price{
+		font-size: 1.1em;
+	}
+	span.minicart-remove{
+		font-size:1.1em;
+	}
+	a.minicart-name{
+		font-size:1.1em;
+	}
+	input.minicart-quantity{
+			font-size: 1.1em;
+		}
+	div.minicart-subtotal{
+			font-size:1.1em;
+		}
+	button.minicart-submit{
+		font-size:1.1em;
+	}
+}
+}
 
 }
