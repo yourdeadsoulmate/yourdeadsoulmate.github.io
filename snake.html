@@ -220,7 +220,7 @@ requestAnimationFrame(loop);
 
 window.setInterval(function(){
   let images = 1200;
-  let imgsarr = ['images/background.jpeg','images/background1.jpeg','images/background2.png','images/background3.png']
+  let imgsarr = ['images/background2.png']
   for (let i = 0; i < 1; i++) {
     for(let i=1; i<=images; i++) {
       imgsarr[Math.floor(Math.random() * imgsarr.length)];
@@ -230,7 +230,9 @@ window.setInterval(function(){
 
 
 
-    let height = Math.floor(Math.random() * Math.floor(1500))
+    let height = Math.floor(Math.random() * Math.floor(15000))
+    let width = Math.floor(Math.random() * Math.floor(15000))
+
 
 
     let ranimg = imgsarr[Math.floor(Math.random() * imgsarr.length)];
@@ -246,7 +248,7 @@ window.setInterval(function(){
     pic.style.marginLeft = "0%";
     pic.style.marginRight = '0%';
 
-    pic.style.width = "250%";
+    pic.style.width = width + "%" ;
     pic.style.height = height + "%";
 
     pic.style.zIndex = zin ;
