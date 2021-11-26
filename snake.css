@@ -3,7 +3,7 @@ body{
 	margin:0;
 	padding:0;
   background-color: black;
-	background-image: url("images/background3.png");
+	/*background-image: url("images/background3.png");*/
 	background-size: 200% 600%;
 	background-repeat: no-repeat;
 	font-family: 'Verdana', sans-serif;
