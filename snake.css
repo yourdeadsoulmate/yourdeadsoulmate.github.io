@@ -1,0 +1,46 @@
+/*styling arranged as seen on page, top to bottom*/
+body{
+	margin:0;
+	padding:0;
+  background-color: black;
+	background-image: url("images/background3.png");
+	background-size: 200% 600%;
+	background-repeat: no-repeat;
+	font-family: 'Verdana', sans-serif;
+	font-size: 1em;
+	line-height: normal;
+}
+
+
+/*styling for snake game*/
+.snake{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+  /*margin-top: 10%;*/
+	width: 100%;
+	mix-blend-mode: difference;
+}
+
+
+
+/* Mobile */
+
+@media only screen and (max-device-width: 800px){
+	html{
+		-webkit-text-size-adjust: 180%;
+}
+.snake{
+  margin-top:0%; }
+}
+
+/* Responsive desktop */
+@media screen and (max-width: 840px){
+	html{
+		-webkit-text-size-adjust: 180%;
+}
+.snake{
+  margin-top:0%; }
+}
+
+}

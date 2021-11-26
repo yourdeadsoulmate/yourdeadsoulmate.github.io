@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link rel="stylesheet" href="index.css">
+<link rel="shortcut icon" type="image/jpg" href="media/favicon/fvcn.jpg">
+<script src="/../assets/js/marquee3k.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.5/minicart.min.js"></script>
+<title>Your Dead Soulmate</title>
+</head>
+<body>
+<!-- Top Navigation Menu -->
+<div class="menu">
+  <a id ="instructor" href="#" onclick="hoodsClothes()">Shop</a>
+  <div id="shop">
+		<a href="shop/beanies/beanies.html">beanies</a>
+		<a href="shop/gloves/gloves.html">gloves</a>
+		<a href="snake.html" target="_blank">snake</a>
+
+		<!-- These are disabled nesting drop down menus!!!!-->
+
+    <!-- <a href="#"onclick="hoods()">Hoods</a>
+    <div id="hoods">
+        <a href="shop/hoods/classic_hoods/classic.html" >Classic</a>
+        <a href="shop/hoods/sky/sky.html" >Sky</a>
+        <a href="shop/hoods/butcher_hoods/butcher.html" >Butcher</a>
+        <a href="shop/hoods/mohair_hoods/mohair.html" >Mohair</a>
+        <a href="shop/hoods/customs/customs.html" >Customs</a>
+        <a href="shop/hoods/allhoods/allhoods.html" >All</a>
+    </div> -->
+
+    <!-- <a href="#"onclick="clothes()">Clothes</a>
+    <div id="clothes">
+        <a href="shop/clothes/tops/tops.html" >Tops</a>
+        <a href="shop/clothes/bottoms/bottoms.html"  >Bottoms</a>
+        <a href="shop/clothes/dresses/dresses.html"  >Dresses</a>
+        <a href="shop/clothes/allclothes/allclothes.html"  >All</a>
+    </div> -->
+
+    <!-- <a href="#"onclick="accessories()">Accessories</a>
+    <div id="accessories">
+        <a href="shop/accessories/bags/bags.html" >Bags</a>
+        <a href="shop/accessories/beanies/beanies.html"  >Beanies</a>
+        <a href="shop/accessories/gloves/gloves.html"  >Gloves</a>
+        <a href="shop/accessories/allaccessories/allaccessories.html"  >All</a>
+    </div> -->
+  </div>
+  <!-- <div class="archive">
+      <a href="archive/archive.html" >Archive</a>
+  </div> -->
+  <!-- <div class="cloud">
+    <a href="cloud/cloud.html" >Cloud Files</a>
+  </div> -->
+</div>
+<div id="right-wrapper" style="position:fixed;bottom:0%;z-index:5;">
+	<section class="newsemarquee" id="banner">
+		<div class="marquee3k" data-speed="3">
+			<div class="marquee3k__copy">
+			<span>SstomaTOMACstomcah H OFof your YOUdeadR DEAD SOULsoulmateMATE WEBSITE</span>
+			</div>
+		</section>
+	</div>
+</body>
+
+<!-- dropdown menu scripts -->
+<script>
+// dropdown menu scripts
+function hoodsClothes() {
+  var x = document.getElementById("shop");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function hoods() {
+  var x = document.getElementById("hoods");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function clothes() {
+  var x = document.getElementById("clothes");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function accessories() {
+  var x = document.getElementById("accessories");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script>
+const menu = document.getElementById('instructor');
+menu.addEventListener('touchstart', hoodsClothes(), false);
+menu.addEventListener('touchend', hoodsClothes(), false);
+
+</script>
+<script type="text/javascript">
+Marquee3k.init();
+Marquee3k.refreshAll();
+</script>
+
+</html>
