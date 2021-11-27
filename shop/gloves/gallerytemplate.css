@@ -2,6 +2,7 @@
 /* Variables */
 
 * {
+	cursor: url(https://cur.cursors-4u.net/nature/nat-2/nat120.cur), auto !important;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	-webkit-text-size-adjust: 100%;
 }
@@ -21,7 +22,7 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	cursor: crosshair;
+/* 	cursor: crosshair; */
   text-decoration: underline;
 
 }
@@ -75,7 +76,7 @@ span{
   width: auto;
 }
 .cart_button:hover{
-  cursor: crosshair;
+/*   cursor: crosshair; */
 }
 
 /* Shop Gallery */
@@ -149,7 +150,7 @@ button {
 
 .cart_button:hover {
     text-decoration: underline;
-    cursor: crosshair;
+/*     cursor: crosshair; */
 }
 
 .cart_button:active{
@@ -261,14 +262,14 @@ button {
 	color: var(--primary_color);
 	background: 0;
 	border: 0;
-	cursor: pointer;
+/* 	cursor: pointer; */
 	position: relative;
 	padding: 0;
 }
 
 #PPMiniCart .minicart-closer:hover {
 	text-decoration: underline;
-  cursor: crosshair;
+/*   cursor: crosshair; */
 }
 
 #PPMiniCart .minicart-closer:active {
@@ -358,7 +359,7 @@ button {
 	border: none;
 	color: var(--primary_color);
 	opacity: 1;
-	cursor: pointer;
+/* 	cursor: pointer; */
 	position: relative;
 	flex: 1;
 }
@@ -396,7 +397,7 @@ button {
 	border: none;
 	padding: 0;
 	background: transparent;
-	cursor: pointer;
+/* 	cursor: pointer; */
 	margin: 1em 1em 1em 1em;
 	text-shadow: none;
 	position: relative;
