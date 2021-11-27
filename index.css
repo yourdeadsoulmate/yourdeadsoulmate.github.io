@@ -1,4 +1,6 @@
 /*styling arranged as seen on page, top to bottom*/
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-2/nat120.cur), auto !important;} 
+
 body{
 	margin:0;
 	padding:0;
@@ -89,7 +91,8 @@ a:visited{
 	width: 100%;
 	mix-blend-mode: difference;
 }
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-2/nat120.cur), auto !important;} /* End https://www.cursors-4u.com */
+/* Start https://www.
+
 
 /* Mobile */
 
